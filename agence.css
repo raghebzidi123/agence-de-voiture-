@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+}
+
+#carouselExemple {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.carousel-inner {
+    display: block;height: 699px;width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 30%;max-width: 1310px;
+    margin-left: 14px;
+    margin-right: 14px;
+    display: block;
+
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+   background-color: #333;
+   color: #fff;
+  
+   padding: 1rem 6rem;
+   
+   top: 0;
+   z-index:1;
+   border-bottom: 3px solid;
+}
+
+#navbar ul {
+    display: flex;
+   align-items: center;
+ list-style: none;
+  top:0;
+}
+
+#navbar li  {
+    padding-left: 5rem;
+margin: 0.5rem;
+border-radius: 3px;list-style: none;
+}
+
+#depart{justify-content: space-between;
+
+}
+h5 p {
+    padding-left: 325px;
+}
+#reservation{font-size: xx-large;padding-left: 635px;margin: 12px;
+    color: blue;font-weight: 700;
+
+}
+#img{
+    width: 490px;height: 410px;margin-left: 15px;padding: 25px;border: #fff solid ;
+}
+.newspaper {
+    column-count: 2;
+  }
+  #prix{
+      float: right;margin-top: -300px;
+      display: block;
+      font-size: x-large;
+      position: absolute;
+      
+      
+  }
+ 
+#bouton{
+    float: right;margin-top: -200px;
+      display: block;
+      font-size: x-large;
+      position: absolute;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  input[type=submit]: {
+    background-color: #45a049;
+  }
+  
+  #fer {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .info{
+      display: flex;justify-content: space-between;padding: 20px;margin-left: 50px;
+
+  }
+  #carte{margin-left: 400px;}
+
+  #contact{color: blue;padding: 10px;margin: 20px;}
