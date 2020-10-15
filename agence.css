@@ -80,3 +80,32 @@ h5 p {
       font-size: x-large;
       position: absolute;
 }
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  input[type=submit]: {
+    background-color: #45a049;
+  }
+  
+  #fer {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .info{
+      display: flex;justify-content: space-between;padding: 20px;margin-left: 50px;
+
+  }
+  #carte{margin-left: 400px;}
+
+  #contact{color: blue;padding: 10px;margin: 20px;}
